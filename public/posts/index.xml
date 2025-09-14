@@ -2,23 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Diego Strebel</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://diegostrebel.com/posts/</link>
     <description>Recent content in Posts on Diego Strebel</description>
     <image>
       <title>Diego Strebel</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.149.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Jun 2025 21:53:35 +0200</lastBuildDate>
+    <atom:link href="https://diegostrebel.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intel 100G-CDWDM Transceivers</title>
-      <link>http://localhost:1313/posts/1_intel_100gbit_transceiver/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1_intel_100gbit_transceiver/</guid>
-      <description>Desc Text.</description>
+      <title>All the FP64 without CUDA - AMD Radeon Instinct MI50 Review</title>
+      <link>https://diegostrebel.com/posts/instinct_mi_50/</link>
+      <pubDate>Wed, 25 Jun 2025 21:53:35 +0200</pubDate>
+      <guid>https://diegostrebel.com/posts/instinct_mi_50/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Radeon Instinct MI50!&#34; loading=&#34;lazy&#34; src=&#34;https://diegostrebel.com/images/InstinctMI50/InstinctMI501.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
+&lt;p&gt;Tearing down the card was pretty straightforward. The outer shroud is held on by 6 small screws. When removed, the shroud can be pulled off the card by slightly wiggling it from side to side.
+Underneath, the card consists of a long black heat sink spanning the whole length of the card. The GPU die is cooled by a copper vapor chamber, easily recognized by its silver fins.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

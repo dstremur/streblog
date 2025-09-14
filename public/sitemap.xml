@@ -2,25 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-02T21:40:56+01:00</lastmod>
+    <loc>https://diegostrebel.com/posts/instinct_mi_50/</loc>
+    <lastmod>2025-06-25T21:53:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-02T21:40:56+01:00</lastmod>
+    <loc>https://diegostrebel.com/</loc>
+    <lastmod>2025-06-25T21:53:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/1_intel_100gbit_transceiver/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://diegostrebel.com/posts/</loc>
+    <lastmod>2025-06-25T21:53:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/networking-intel-fiber/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://diegostrebel.com/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+    <loc>https://diegostrebel.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://diegostrebel.com/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://diegostrebel.com/tags/</loc>
   </url>
 </urlset>
