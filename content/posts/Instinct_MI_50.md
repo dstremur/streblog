@@ -12,7 +12,7 @@ Underneath, the card consists of a long black heat sink spanning the whole lengt
 
 ![Radeon Instinct MI50 without shroud!](/images/InstinctMI50/MI50_noshroud.jpg)
 
-The vapor chamber can be pulled off the die by removing the 4 screws holding it down onto the die. They are the screws which are screw into the silver springy thing on the backside. 
+The vapor chamber can be pulled off the die by removing the 4 screws holding it down onto the die. They go into the silver springy thing on the backside. 
 
 ![Radeon Instinct MI50 vapor chamber!](/images/InstinctMI50/MI50_Cooler.jpg)
 
@@ -22,7 +22,7 @@ be better at filling in the microimperfections in the cooler and the die. I have
 so far.
 
 To remove the black heatsink, the backplate has to be taken off first, since it covers some hidden screws that are securing the aformentioned heat sink. 
-After all of them have been removed, the heatsink can be pried off the PCB. Note that the thermal pads over the VRMs should be removed with, such that they 
+After all of them have been removed, the heatsink can be pried off the PCB. Note that the thermal pads over the VRMs should be removed with care, such that they 
 can be reused. If you need to replace them, I have found that 2 mm thick thermal pads work pretty well. 
 
 
@@ -34,7 +34,7 @@ For the operating system, Ubuntu Server 24.04.02 LTS was chosen based on two mai
 1. Ubuntu is a ROCm supported OS, something which is very important when you're playing with hardware that is not 100% supported. This does not
 just apply to the MI50's, but also to Chelsio NICs (blog post coming soon ...), the GIGABYTE server, etc.
 
-2. Ubuntu is the standard OS when it comes to AI and Deep Learning frameworks and applications. 
+2. Ubuntu is the standard OS when it comes to AI and Deep Learning frameworks / applications. 
 
 I can happily report, that the Ubuntu installation has been flawless so far and has caused very little headaches.
 The same cannot be said about the ROCm/Driver install, which took about 4 attempts to get running smoothly.
@@ -45,7 +45,7 @@ To install ROCm, AMD provides a quick install, which in theory should be as easy
 However, I did not have great luck with it, instead resorting to the detailed installation. This is the preferred method for most people. 
 I won't go over every step of the installation, you can refer to AMD's detailed instructions. [^1]
 
-I'm just sharing the eventual command, which installs ROCm and additional libraries. I strongly recommend to reading through all the options under 
+Therefore, I won't share any 'one' command and instead strongly advise you to read through all the options under 
 `amdgpu-install --list-usecases` and selecting the one's that you need.
 
 
@@ -54,7 +54,7 @@ I'm just sharing the eventual command, which installs ROCm and additional librar
 ## Issues
 
 
-Another interesting quirk of this card is that it still features a beeper on the PCB. Yes, the kind that is usually found on motherboards.
+Another interesting quirk of this card is that it still features a beeper on the PCB. Yes, the kind that is usually found on motherboards for POST codes.
 The utility of it on a GPU is still not that clear to me. 
 
 I first noticed this when turning on my Gigabyte G292-Z00, thinking that the noise must be the result of an error message given by the server.
@@ -73,7 +73,7 @@ I'm not able to verify this at the moment, but it does not seem unlikely, consid
 ## Appendix 0 Flashing VGPUBIOS
 
 In recent years a couple different versions of MI50s have surfaced. There is the authentic MI50 by AMD, recognized as `Radeon Instinct MI50 16GB`.
-The other type is a chinese model, which seems to be a Radeon VII that has been modified to look like a Radeon Instinct card.
+The other type is a Chinese model, which seems to be a Radeon VII that has been modified to look like a Radeon Instinct card.
 In software, they are easily distinguished, as the chinese version is recognized as `Radeon VII`.
 There is also a 32 GB variant of the card, making it basically a MI60 that also seems to be coming out of China. However, I do not own one of those cards. 
 

@@ -14,13 +14,13 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
+  title: Diego Strebel
   description: "A Tech Blog"
-  keywords: [Blog, Portfolio, PaperMod, Homelab]
+  keywords: [Blog, Portfolio, PaperMod, Homelab, Hardware, Mersenne Primes]
   author: Diego Strebel
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2 January 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -71,8 +71,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi "
-    Content: Welcome to my blog
+    Title: "Hello World!"
+    Content: A blog of all posts that do not contain themselves
 
   socialIcons:
     - name: github
@@ -124,7 +124,7 @@ menu:
     - identifier: search
       name: search
       url: search/
-      weight: 5
+      weight: 10
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
