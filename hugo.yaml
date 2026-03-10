@@ -12,6 +12,10 @@ minify:
   disableXML: true
   minifyOutput: true
 
+taxonomies:
+  category: categories
+  tag: tags
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Diego Strebel
@@ -77,6 +81,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/dstremur"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/diego-strebel-a4558b3b6/"
 
   analytics:
     google:
@@ -109,22 +115,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: about
+      name: about 
+      url: about
+      weight: 10
     - identifier: categories
       name: categories
       url: /categories/
-      weight: 10
+      weight: 20
     - identifier: tags
       name: tags
-      url: /tags/
-      weight: 20
+      url: tags
+      weight: 30
     - identifier: archive
       name: archive
       url: archives 
-      weight: 10
+      weight: 40
     - identifier: search
       name: search
       url: search/
-      weight: 10
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
