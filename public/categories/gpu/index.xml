@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GPU on Diego Strebel</title>
-    <link>http://localhost:1313/categories/gpu/</link>
+    <link>https://diegostrebel.com/categories/gpu/</link>
     <description>Recent content in GPU on Diego Strebel</description>
     <image>
       <title>Diego Strebel</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Sat, 07 Feb 2026 17:07:42 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://diegostrebel.com/categories/gpu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#39;Silencing&#39; the Instinct MI 50</title>
-      <link>http://localhost:1313/posts/instinct_mi_50_silent/</link>
+      <link>https://diegostrebel.com/posts/instinct_mi_50_silent/</link>
       <pubDate>Sat, 07 Feb 2026 17:07:42 +0100</pubDate>
-      <guid>http://localhost:1313/posts/instinct_mi_50_silent/</guid>
+      <guid>https://diegostrebel.com/posts/instinct_mi_50_silent/</guid>
       <description>&lt;h2 id=&#34;the-instinct-mi-50&#34;&gt;The Instinct MI 50&lt;/h2&gt;
 &lt;p&gt;As noted in my previous post about the MI 50, I was plagued by a beeping sound that came directly from the card. Originally, I thought that it must come from the
 motherboard, since I was not aware of a GPU that had a physical beeper. But during the teardown, I could see that the card indeed has a beeper just like a normal
