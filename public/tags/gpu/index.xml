@@ -9,8 +9,19 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 25 Jun 2025 21:53:35 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All the FP64 without CUDA - AMD Radeon Instinct MI50 Review</title>
+      <link>http://localhost:1313/posts/instinct_mi_50/</link>
+      <pubDate>Wed, 25 Jun 2025 21:53:35 +0200</pubDate>
+      <guid>http://localhost:1313/posts/instinct_mi_50/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Radeon Instinct MI50!&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/InstinctMI50/InstinctMI501.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
+&lt;p&gt;Tearing down the card was pretty straightforward. The outer shroud is held on by 6 small screws. When removed, the shroud can be pulled off the card by slightly wiggling it from side to side.
+Underneath, the card consists of a long black heat sink spanning the whole length of the card. The GPU die is cooled by a copper vapor chamber, easily recognized by its silver fins.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

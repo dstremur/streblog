@@ -2,26 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Diego Strebel</title>
-    <link>https://diegostrebel.com/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Diego Strebel</description>
     <image>
       <title>Diego Strebel</title>
-      <url>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Jun 2025 21:53:35 +0200</lastBuildDate>
-    <atom:link href="https://diegostrebel.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2026 22:04:36 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NixOS_Vivado</title>
+      <link>http://localhost:1313/posts/nixos_vivado/</link>
+      <pubDate>Fri, 13 Mar 2026 22:04:36 +0100</pubDate>
+      <guid>http://localhost:1313/posts/nixos_vivado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>&#39;Silencing&#39; the Instinct MI 50</title>
+      <link>http://localhost:1313/posts/instinct_mi_50_silent/</link>
+      <pubDate>Sat, 07 Feb 2026 17:07:42 +0100</pubDate>
+      <guid>http://localhost:1313/posts/instinct_mi_50_silent/</guid>
+      <description>&lt;h2 id=&#34;the-instinct-mi-50&#34;&gt;The Instinct MI 50&lt;/h2&gt;
+&lt;p&gt;As noted in my previous post about the MI 50, I was plagued by a beeping sound that came directly from the card. Originally, I thought that it must come from the
+motherboard, since I was not aware of a GPU that had a physical beeper. But during the teardown, I could see that the card indeed has a beeper just like a normal
+motherboard. It is highlighted in the next picture.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>All the FP64 without CUDA - AMD Radeon Instinct MI50 Review</title>
-      <link>https://diegostrebel.com/posts/instinct_mi_50/</link>
+      <link>http://localhost:1313/posts/instinct_mi_50/</link>
       <pubDate>Wed, 25 Jun 2025 21:53:35 +0200</pubDate>
-      <guid>https://diegostrebel.com/posts/instinct_mi_50/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Radeon Instinct MI50!&#34; loading=&#34;lazy&#34; src=&#34;https://diegostrebel.com/images/InstinctMI50/InstinctMI501.jpg&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/posts/instinct_mi_50/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Radeon Instinct MI50!&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/InstinctMI50/InstinctMI501.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
 &lt;p&gt;Tearing down the card was pretty straightforward. The outer shroud is held on by 6 small screws. When removed, the shroud can be pulled off the card by slightly wiggling it from side to side.
 Underneath, the card consists of a long black heat sink spanning the whole length of the card. The GPU die is cooled by a copper vapor chamber, easily recognized by its silver fins.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cisco Nexus N9K-92160YC-X</title>
+      <link>http://localhost:1313/posts/cisco/</link>
+      <pubDate>Tue, 24 Jun 2025 21:07:14 +0200</pubDate>
+      <guid>http://localhost:1313/posts/cisco/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Cisco Nexus N9K-92160YC-X&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/Cisco_N9K-92160YC-X/cisco-n9k-c92160yc-x.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;TL;dr&lt;/h2&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+&lt;p&gt;Contrary to &lt;a href=&#34;https://forums.servethehome.com/index.php?threads/cisco-nexus-92160yc-x-350-48xsfp28-6xqsfp-4xqsfp28.45423/post-448115&#34;&gt;this post&lt;/a&gt;
+on the ServeTheHome forum, I had no issues installing 10GBase-T transceivers in the SFP28 Slots.
+Overall, I had great hardware support with the only non-compatible optics being the Intel CWDM 2km which just refused to work.&lt;/p&gt;
+&lt;h2 id=&#34;caviats&#34;&gt;Caviats&lt;/h2&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&#34;appendix-0-fan-swap&#34;&gt;Appendix 0: Fan Swap&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Sat, 21 Jun 2025 22:39:22 +0200</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Guides on Diego Strebel</title>
+    <link>http://localhost:1313/categories/guides/</link>
+    <description>Recent content in Guides on Diego Strebel</description>
+    <image>
+      <title>Diego Strebel</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 13 Mar 2026 22:04:36 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NixOS_Vivado</title>
+      <link>http://localhost:1313/posts/nixos_vivado/</link>
+      <pubDate>Fri, 13 Mar 2026 22:04:36 +0100</pubDate>
+      <guid>http://localhost:1313/posts/nixos_vivado/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>All the FP64 without CUDA - AMD Radeon Instinct MI50 Review</title>
+      <link>http://localhost:1313/posts/instinct_mi_50/</link>
+      <pubDate>Wed, 25 Jun 2025 21:53:35 +0200</pubDate>
+      <guid>http://localhost:1313/posts/instinct_mi_50/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Radeon Instinct MI50!&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/InstinctMI50/InstinctMI501.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;teardown&#34;&gt;Teardown&lt;/h2&gt;
+&lt;p&gt;Tearing down the card was pretty straightforward. The outer shroud is held on by 6 small screws. When removed, the shroud can be pulled off the card by slightly wiggling it from side to side.
+Underneath, the card consists of a long black heat sink spanning the whole length of the card. The GPU die is cooled by a copper vapor chamber, easily recognized by its silver fins.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

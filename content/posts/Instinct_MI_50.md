@@ -2,6 +2,8 @@
 title: "All the FP64 without CUDA - AMD Radeon Instinct MI50 Review"
 date: 2025-06-25T21:53:35+02:00
 draft: false
+tags: ["GPU", "AMD"]
+categories: ["Guides", "Review"]
 ---
 ![Radeon Instinct MI50!](/images/InstinctMI50/InstinctMI501.jpg)
 
