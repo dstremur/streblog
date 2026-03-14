@@ -3,6 +3,13 @@ title: Diego Strebel
 pagination.pagerSize: 10
 theme: PaperMod
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # This is the critical line for search
+
+copyright: 'This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" style="height: 1em; margin-left: .3em; vertical-align: middle; display: inline-block;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="BY" style="height: 1em; margin-left: .1em; vertical-align: middle; display: inline-block;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="SA" style="height: 1em; margin-left: .1em; vertical-align: middle; display: inline-block;">'
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -17,6 +24,7 @@ taxonomies:
   tag: tags
 
 params:
+  
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Diego Strebel
   description: "A Tech Blog"
@@ -28,7 +36,6 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  copyright: "<strong>CC BY-SA 4.0</strong><br> Creative Commons Attribution-ShareAlike 4.0 International<br> <small>Text goes here...</small>"
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -110,15 +117,15 @@ params:
     shouldSort: true
     location: 0
     distance: 1000
-    threshold: 0.4
+    threshold: 0.2
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    #limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
     - identifier: about
       name: about 
-      url: about
+      url: /about/
       weight: 10
     - identifier: categories
       name: categories
@@ -126,23 +133,26 @@ menu:
       weight: 20
     - identifier: tags
       name: tags
-      url: tags
+      url: /tags/
       weight: 30
     - identifier: archive
       name: archive
-      url: archives 
+      url: /archives/ 
       weight: 40
     - identifier: search
       name: search
-      url: search/
+      url: /search/
       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
+    anchorLineNos: false
     # codeFences: true
     # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    lineNos: false
+    style: github
+  goldmark:
+    renderer:
+      unsafe: true
