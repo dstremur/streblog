@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Feb 2026 17:07:42 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 22:04:36 +0100</lastBuildDate>
     <atom:link href="https://diegostrebel.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Vivado 2025.2 on NixOS</title>
+      <link>https://diegostrebel.com/posts/nixos_vivado/</link>
+      <pubDate>Fri, 13 Mar 2026 22:04:36 +0100</pubDate>
+      <guid>https://diegostrebel.com/posts/nixos_vivado/</guid>
+      <description>&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;
+&lt;p&gt;I should preface this by saying that Vivado probably has most painful installation process of any program I know. It is as if someone had implemented &lt;a href=&#34;https://en.wikipedia.org/wiki/Wirth%27s_law&#34;&gt;Wirth&amp;rsquo;s law&lt;/a&gt;.
+This post is based on Oliver Kovacs great &lt;a href=&#34;https://oliverkovacs.dev/blog/2025/05/02/installing-vivado-on-nixos.html&#34;&gt;article&lt;/a&gt; about his setup for Vivado 2019.2 on NixOS. My changes are based around the new version of Vivadoa and getting the USB connection to an FPGA board to work.&lt;/p&gt;
+&lt;h2 id=&#34;downloading-vivado&#34;&gt;Downloading Vivado&lt;/h2&gt;
+&lt;p&gt;The first step is to download Vivado from the official &lt;a href=&#34;https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools.html&#34;&gt;website&lt;/a&gt;. Note that you need to download the offline installer for this to work.
+To be able to download you will also need to create an AMD account.
+Then you also need to fill out the export restriction form and handover all your
+personal information to the US government.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>&#39;Silencing&#39; the Instinct MI 50</title>
       <link>https://diegostrebel.com/posts/instinct_mi_50_silent/</link>

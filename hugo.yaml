@@ -28,6 +28,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
+  copyright: "<strong>CC BY-SA 4.0</strong><br> Creative Commons Attribution-ShareAlike 4.0 International<br> <small>Text goes here...</small>"
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
