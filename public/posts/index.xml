@@ -9,11 +9,26 @@
       <url>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo -- 0.158.0</generator>
     <language>en</language>
     <copyright>This work is licensed under CC BY-SA 4.0 </copyright>
-    <lastBuildDate>Fri, 13 Mar 2026 22:04:36 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 20:47:22 +0100</lastBuildDate>
     <atom:link href="https://diegostrebel.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Benchmarking the Instinct MI50 in 2026</title>
+      <link>https://diegostrebel.com/posts/mi50_benchmarks/</link>
+      <pubDate>Sun, 15 Mar 2026 20:47:22 +0100</pubDate>
+      <guid>https://diegostrebel.com/posts/mi50_benchmarks/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This blog post serves as a collection of benchmarks regarding the Instinct MI50.
+It will probably be extended in the future, see the changelog at the bottom.&lt;/p&gt;
+&lt;h2 id=&#34;llm-benchmarks&#34;&gt;LLM benchmarks&lt;/h2&gt;
+&lt;p&gt;First, I ran some LLM benchmarks using &lt;code&gt;llama-bench&lt;/code&gt;. All models were downloaded from &lt;a href=&#34;https://huggingface.co/&#34;&gt;Huggingface&lt;/a&gt;
+in a GGUF format. The default number of test rounds was increased to 50 and Flash-Attention was enabled.&lt;/p&gt;
+&lt;h3 id=&#34;apertus-70b-instruct&#34;&gt;Apertus-70B-Instruct&lt;/h3&gt;
+&lt;p&gt;Kicking things off, we have the Swiss &lt;a href=&#34;https://huggingface.co/unsloth/Apertus-70B-Instruct-2509-GGUF?show_file_info=Apertus-70B-Instruct-2509-UD-Q4_K_XL.gguf&#34;&gt;Apertus-70B-Instruct&lt;/a&gt; Model. The MI50 handled this 41GB model very well,
+resulting in ~11 Token/s in generation. Sadly you can feel that the model is still way behind foreign options in terms of usability.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Running Vivado 2025.2 on NixOS</title>
       <link>https://diegostrebel.com/posts/nixos_vivado/</link>

@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://diegostrebel.com/tags/amd/</loc>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
+  </url><url>
+    <loc>https://diegostrebel.com/posts/mi50_benchmarks/</loc>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
+  </url><url>
     <loc>https://diegostrebel.com/categories/</loc>
-    <lastmod>2026-03-13T22:04:36+01:00</lastmod>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
   </url><url>
     <loc>https://diegostrebel.com/</loc>
-    <lastmod>2026-03-13T22:04:36+01:00</lastmod>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
+  </url><url>
+    <loc>https://diegostrebel.com/tags/gpu/</loc>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
+  </url><url>
+    <loc>https://diegostrebel.com/posts/</loc>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
+  </url><url>
+    <loc>https://diegostrebel.com/categories/review/</loc>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
+  </url><url>
+    <loc>https://diegostrebel.com/tags/</loc>
+    <lastmod>2026-03-15T20:47:22+01:00</lastmod>
   </url><url>
     <loc>https://diegostrebel.com/categories/guides/</loc>
     <lastmod>2026-03-13T22:04:36+01:00</lastmod>
@@ -14,13 +32,7 @@
     <loc>https://diegostrebel.com/tags/nixos/</loc>
     <lastmod>2026-03-13T22:04:36+01:00</lastmod>
   </url><url>
-    <loc>https://diegostrebel.com/posts/</loc>
-    <lastmod>2026-03-13T22:04:36+01:00</lastmod>
-  </url><url>
     <loc>https://diegostrebel.com/posts/nixos_vivado/</loc>
-    <lastmod>2026-03-13T22:04:36+01:00</lastmod>
-  </url><url>
-    <loc>https://diegostrebel.com/tags/</loc>
     <lastmod>2026-03-13T22:04:36+01:00</lastmod>
   </url><url>
     <loc>https://diegostrebel.com/posts/instinct_mi_50_silent/</loc>
@@ -36,15 +48,6 @@
     <lastmod>2026-02-07T17:07:42+01:00</lastmod>
   </url><url>
     <loc>https://diegostrebel.com/posts/instinct_mi_50/</loc>
-    <lastmod>2025-06-25T21:53:35+02:00</lastmod>
-  </url><url>
-    <loc>https://diegostrebel.com/tags/amd/</loc>
-    <lastmod>2025-06-25T21:53:35+02:00</lastmod>
-  </url><url>
-    <loc>https://diegostrebel.com/tags/gpu/</loc>
-    <lastmod>2025-06-25T21:53:35+02:00</lastmod>
-  </url><url>
-    <loc>https://diegostrebel.com/categories/review/</loc>
     <lastmod>2025-06-25T21:53:35+02:00</lastmod>
   </url><url>
     <loc>https://diegostrebel.com/about/</loc>
