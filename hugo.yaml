@@ -141,6 +141,10 @@ menu:
       name: search
       url: /search/
       weight: 50
+    - identifier: teaching
+      name: teaching
+      url: /teaching/
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
