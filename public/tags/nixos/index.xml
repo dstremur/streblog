@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NixOS on Diego Strebel</title>
-    <link>https://diegostrebel.com/tags/nixos/</link>
+    <link>http://localhost:1313/tags/nixos/</link>
     <description>Recent content in NixOS on Diego Strebel</description>
     <image>
       <title>Diego Strebel</title>
-      <url>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://diegostrebel.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.165.0</generator>
+    <generator>Hugo -- 0.166.0</generator>
     <language>en</language>
     <copyright>This work is licensed under CC BY-SA 4.0 </copyright>
     <lastBuildDate>Fri, 13 Mar 2026 22:04:36 +0100</lastBuildDate>
-    <atom:link href="https://diegostrebel.com/tags/nixos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/nixos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Running Vivado 2025.2 on NixOS</title>
-      <link>https://diegostrebel.com/posts/nixos_vivado/</link>
+      <link>http://localhost:1313/posts/nixos_vivado/</link>
       <pubDate>Fri, 13 Mar 2026 22:04:36 +0100</pubDate>
-      <guid>https://diegostrebel.com/posts/nixos_vivado/</guid>
+      <guid>http://localhost:1313/posts/nixos_vivado/</guid>
       <description>&lt;h2 id=&#34;tldr&#34;&gt;TLDR&lt;/h2&gt;
 &lt;p&gt;I should preface this by saying that Vivado probably has most painful installation process of any program I know. It is as if someone had implemented &lt;a href=&#34;https://en.wikipedia.org/wiki/Wirth%27s_law&#34;&gt;Wirth&amp;rsquo;s law&lt;/a&gt;.
 This post is based on Oliver Kovacs great &lt;a href=&#34;https://oliverkovacs.dev/blog/2025/05/02/installing-vivado-on-nixos.html&#34;&gt;article&lt;/a&gt; about his setup for Vivado 2019.2 on NixOS. My changes are based around the new version of Vivadoa and getting the USB connection to an FPGA board to work.&lt;/p&gt;
