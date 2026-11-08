@@ -10,4 +10,5 @@ My research interests are in algebraic and computational number theory, with an 
 
 The site logo is a die shot of an AMD Radeon R9 290X (https://www.flickr.com/photos/130561288@N04/43859958584/).
 
+[CV](/cv.pdf)
 
